@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    height: 100vh;
+    background: url('Karnataka.png') no-repeat left center;
+    background-position: -50px center;
+    background-color: #121212; /* Dark background for better contrast */
+    color: white;
+}
+
+header {
+    background: rgba(34, 34, 34, 0.9); /* Light black background */
+    background-image: url('header.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 100px; /* Adjust height as needed */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+/* Navigation Styles */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #f8f8f8; /* Lighter text for better visibility */
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: color 0.3s, background 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffcc00; /* Yellow on hover for better visibility */
+}
+
+/* Container Styles */
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background: rgba(255, 255, 255, 0.1); /* Slightly visible background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+/* Heading Styles */
+h2 {
+    color: #ffcc00; /* Yellow heading for emphasis */
+}
+
+/* List Styling */
+ol {
+    text-align: left;
+    margin-left: 30px;
+}
+
+a {
+    color: #00aaff; /* Light Blue for visibility */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: orange;
+}
+
+li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 600px) {
+    .container {
+        width: 90%;
+        margin: 20px auto;
+        padding: 15px;
+    }
+    h1 {
+        font-size: 22px;
+    }
+    li {
+        font-size: 16px;
+    }
+}
